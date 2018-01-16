@@ -1,0 +1,3 @@
+com\kafkatest\App\Launcher.class
+com\kafkatest\verticles\ConsumerVerticle.class
+com\kafkatest\verticles\ProducerVerticle.class
