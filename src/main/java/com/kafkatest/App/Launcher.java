@@ -1,5 +1,6 @@
 package com.kafkatest.App;
 
+import com.kafkatest.verticles.ConsumerVerticle;
 import com.kafkatest.verticles.ProducerVerticle;
 import io.vertx.core.Vertx;
 
@@ -11,5 +12,6 @@ public class Launcher {
     public static void main(String[] args) {
         Vertx vertx = Vertx.vertx();
         vertx.deployVerticle(new ProducerVerticle());
+        vertx.deployVerticle(new ConsumerVerticle());
     }
 }

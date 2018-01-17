@@ -19,7 +19,7 @@ public class ProducerVerticle extends AbstractVerticle {
         vertx.createHttpServer().requestHandler(
                 r->{
                     if( r.getParam("text")!= null ) {
-                        System.out.println(r.getParam("text"));
+                        System.out.println("Value to produce: " +r.getParam("text"));
                         KafkaProducer<String,String> producer = createProducer();
                         KafkaProducerRecord<String, String> record =
                                 KafkaProducerRecord.create("test", r.getParam("text"));
