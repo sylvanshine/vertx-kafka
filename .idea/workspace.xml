@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f407c2-b08d-4a0f-9825-16564970400c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/KafkaProba.iml" afterPath="$PROJECT_DIR$/KafkaProba.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kafkatest/App/Launcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/kafkatest/App/Launcher.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ProducerVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ProducerVerticle.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafkatest/verticles/ConsumerVerticle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kafkatest/verticles/ProducerVerticle.class" afterPath="$PROJECT_DIR$/target/classes/com/kafkatest/verticles/ProducerVerticle.class" />
     </list>
     <ignored path="KafkaProba.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +23,18 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="KafkaProba" />
   </component>
@@ -31,7 +43,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="0">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
@@ -50,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProducerVerticle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProducerVerticle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ProducerVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+            <state relative-caret-position="408">
+              <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,34 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsumerVerticle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConsumerVerticle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="433">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KafkaConsumer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0.jar!/io/vertx/kafka/client/consumer/KafkaConsumer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-              <folding>
-                <marker date="1516178968139" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1516178968139" expanded="false" signature="154:754" ph="..." />
-                <marker date="1516178968139" expanded="true" signature="949:1082" ph="{...}" />
-                <marker date="1516178968139" expanded="true" signature="1170:1336" ph="{...}" />
-                <marker date="1516178968139" expanded="true" signature="1462:1648" ph="{...}" />
-                <marker date="1516178968139" expanded="true" signature="1742:1895" ph="{...}" />
-                <marker date="1516178968139" expanded="true" signature="2027:2200" ph="{...}" />
-                <marker date="1516178968139" expanded="true" signature="3292:3314" ph="@{...}" />
-                <marker date="1516178968139" expanded="false" signature="6101:6112" ph=" { " />
-                <marker date="1516178968139" expanded="false" signature="6138:6144" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -104,6 +95,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test3</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -116,8 +112,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kafkatest/App/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ProducerVerticle.java" />
       </list>
     </option>
@@ -151,9 +147,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
   </component>
@@ -729,16 +724,15 @@
       <option name="presentableId" value="Default" />
       <updated>1516137152976</updated>
       <workItem from="1516137155589" duration="5434000" />
-      <workItem from="1516178960884" duration="1419000" />
+      <workItem from="1516178960884" duration="15555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6853000" />
+    <option name="totallyTimeSpent" value="20989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -755,13 +749,13 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39960822" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39960822" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -785,7 +779,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -850,20 +846,29 @@
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/Handler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/3.0.0/vertx-core-3.0.0-sources.jar!/io/vertx/core/http/HttpServerRequest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0.jar!/io/vertx/kafka/client/producer/KafkaProducerRecord.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0.jar!/io/vertx/kafka/client/producer/KafkaProducer.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/lang/Runnable.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0.jar!/io/vertx/kafka/client/common/impl/CloseHandler.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="0">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/App/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0.jar!/io/vertx/kafka/client/consumer/KafkaConsumer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="196">
           <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <marker date="1516178968139" expanded="false" signature="0:104" ph="/.../" />
@@ -880,30 +885,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0.jar!/io/vertx/kafka/client/producer/KafkaProducer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="-173">
+          <caret line="74" column="24" lean-forward="false" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1516178968139" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1516178968139" expanded="false" signature="154:681" ph="..." />
+            <marker date="1516178968139" expanded="true" signature="890:965" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="1072:1147" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="1292:1387" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="1538:1633" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="1733:1868" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="1956:2124" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="2250:2438" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="2532:2687" ph="{...}" />
+            <marker date="1516178968139" expanded="true" signature="2819:2994" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/App/Launcher.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0-sources.jar!/io/vertx/kafka/client/producer/KafkaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="35">
+          <caret line="106" column="36" lean-forward="false" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0-sources.jar!/io/vertx/kafka/client/producer/impl/KafkaProducerRecordImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0-sources.jar!/io/vertx/kafka/client/producer/KafkaProducerRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0-sources.jar!/io/vertx/kafka/client/common/TopicPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-kafka-client/3.5.0/vertx-kafka-client-3.5.0-sources.jar!/io/vertx/kafka/client/consumer/KafkaConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="181" column="44" lean-forward="false" selection-start-line="181" selection-start-column="44" selection-end-line="181" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ProducerVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        <state relative-caret-position="408">
+          <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kafkatest/verticles/ConsumerVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
